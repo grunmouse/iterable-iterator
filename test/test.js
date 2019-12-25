@@ -1,4 +1,4 @@
-var iterable = require('iterable-iterator');
+var iterable = require('../index.js');
 
 var arr = [[0,1],[5],[2,3]];
 var iter = iterable.getOfIterable(arr);
