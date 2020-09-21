@@ -48,7 +48,8 @@ function makeOfObject(obj, sort){
 /**
  * Создаёт итератор, обходящий односвязный список
  * @param start - объект, с которого начинаем обход
- * @param nextProp - имя свойства, содержащего 
+ * @param nextProp : String - имя свойства или метода, содержащего или возвращающего ссылку на следующий объект
+ * @param isMethod : Boolean - признак того, что это не свойство, а метод.
  */
  
 function makeOfList(start, nextProp, isMethod){
